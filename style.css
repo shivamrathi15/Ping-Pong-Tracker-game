@@ -1,0 +1,70 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header-title {
+    background-color: #00d1b2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-image img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.select {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1.25rem;
+}
+
+button.is-large {
+    font-size: 1.5rem;
+}
+
+button.is-primary {
+    background-color: #3273dc;
+    color: white;
+}
+
+button.is-info {
+    background-color: #209cee;
+    color: white;
+}
+
+button.is-danger {
+    background-color: #ff3860;
+    color: white;
+}
